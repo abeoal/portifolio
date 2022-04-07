@@ -21,12 +21,20 @@ html{
 
 .navbar h1{
     margin-top: 10px;
+    font-size: 30px;
+    font-family:'Courier New', Courier, monospace;
 }
 .navbar ul{
     display: flex;
     list-style: none;
+    margin-top: 20px;
     
 }
+.navbar ul  :hover{
+    transform: scale(1.4);
+    transition: 0.5s  ease-in-out;
+    
+    }
 .navbar ul li a{
     text-decoration: none;
     margin:20px 40px;
@@ -42,6 +50,20 @@ html{
 .name h1{
     font-size: 50px;
 }
+.icons{
+    display: flex;
+    list-style: none;
+    margin-top: 40px;
+}
+.icons li img{
+    width: 50px;
+    margin-left: 10px;
+}
+.icons li :hover{
+    transform: scale(1.4);
+    transition: 0.4s  ease-in-out;
+    
+    }
 .name p{
     font-size: 25px;
     margin-top :50px;
@@ -65,6 +87,7 @@ html{
     justify-content: center;
     font-size: 40px;
     margin: 100px 0 20px 0;
+    font-family: 'Courier New', Courier, monospace;
 }
 .sec-container-p{
     font-size: 25px;
@@ -83,6 +106,33 @@ section{
     width: 100%;
     background:linear-gradient(rgb(231, 230, 230),rgb(231, 230, 230) opacity 0);
 }
+#contact{
+    margin-bottom: -30rem;
+}
+.projects{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.proj-title{
+
+    margin-top: 27rem;
+    background-color: rgb(143, 137, 137) ;;
+    padding-bottom: 20rem;
+}
+.proj-title h1{
+    padding-top: 5rem;
+    margin-bottom:5rem ;
+    margin-left: 30rem;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.projects  :hover{
+transform: scale(1.1);
+transition: 0.3s  ease-in-out;
+
+}
 .contain{
     position: relative;
     z-index: 1000;
@@ -92,9 +142,7 @@ section{
     background: rgb(231, 230, 230);
     box-shadow:  0 25px 45px rgba(230, 42, 42, 0.1);
     border: 1px solid rgb(255,255,255,0.25);
-    border-right: 1px solid rgba(98, 94, 94, 0.1);
-    border-bottom: 1px solid rgba(77, 76, 76, 0.1);
-    border-radius: 1px solid rgba(255, 255, 255, 0.1);
+    
     overflow: hidden;
 
 
@@ -105,6 +153,7 @@ section{
     color: #fff;
     font-size: 36px;
     margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
 }
 .contain .row100{
     position: relative;
