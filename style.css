@@ -263,6 +263,9 @@ height: 100%;
 
 }
 /* My Services CSS */
+.services{
+    margin-top: 70px;
+}
 .services .boxes{
     display: flex;
     flex-wrap: wrap;
